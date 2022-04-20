@@ -1,0 +1,66 @@
+:root, * {
+    --font-family: 'Montserrat';
+    --primary : #2b309b;
+    --primary-hover : #20257e;
+}
+
+/** SECTIONS **/
+
+section {
+    margin: 0;
+}
+
+section div {
+    padding: 3% 3% 2% 3%;
+}
+
+section div.grid div img {
+    text-align: center;
+}
+
+#social, #home {
+    background-image: url('../img/bg.jpg');
+}
+
+#stats, #history {
+    background-color: var(--primary);
+}
+
+/** SECTION END **/ 
+
+a {
+    text-decoration: none;
+}
+
+/** SECTION : Missions **/ 
+
+#mission  {
+    text-align: center;
+}
+
+/** SECTION END : Missions **/ 
+
+/** SECTION : History **/ 
+
+#history p {
+    color :white;
+    text-align: justify;
+}
+
+#history h2, #history h3 {
+    color: white;
+}
+
+/** SECTION END : history **/ 
+
+/** SECTION : Statistiques **/ 
+
+#stats h2, #stats h3 {
+    color: white;
+}
+
+#stats h4 {
+    font-size: 3em;
+}
+
+/** SECTION END : Statistiques **/ 
